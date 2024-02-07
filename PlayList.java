@@ -115,7 +115,7 @@ class PlayList {
        if(size!=0 && i>=0 && i<=size)
        {
             tracks[i]=null;
-            for(int j=i+1; i<size; j++)
+            for(int j=i+1; j<size; j++)
             {
                 tracks[j-1]=tracks[j];
             }
