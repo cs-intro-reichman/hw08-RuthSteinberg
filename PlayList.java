@@ -129,7 +129,7 @@ class PlayList {
     public void remove(String title) {
         for (int i = 0; i < size; i++) {
             if (tracks[i] != null && tracks[i].getTitle().equals(title)) {
-                for (int j = i; j < size - 1; j++) {
+                for (int j = i; j < size; j++) {
                     tracks[j] = tracks[j + 1];
                 }
                 tracks[size - 1] = null;
